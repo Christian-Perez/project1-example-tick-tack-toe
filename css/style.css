@@ -1,3 +1,23 @@
-body {
-  background-color: green;
+#board {
+  width: 606px;
+  margin: 0 auto;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.tile:hover {
+  background-color: rgba(30, 50, 100, .2);
+}
+.middleTiles{
+  border-left:  1px solid rgb(0, 0, 0);
+  border-right:  1px solid rgb(0, 0, 0);
+}
+#row1 .tile{
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+#row3 .tile{
+  border-top: 1px solid rgb(0, 0, 0);
 }

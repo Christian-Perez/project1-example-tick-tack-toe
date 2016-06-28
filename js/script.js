@@ -1,1 +1,2 @@
-console.log('script.js is linked');
+
+// var tiles = document.getElementByClassName('tile');
