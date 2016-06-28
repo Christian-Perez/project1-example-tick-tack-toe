@@ -5,8 +5,12 @@
 
 .tile {
   width: 200px;
+  /*width: 33;*/
   height: 200px;
   float: left;
+  font-size: 10em;
+  text-align: center;
+  vertical-align: center;
 }
 .tile:hover {
   background-color: rgba(30, 50, 100, .2);
